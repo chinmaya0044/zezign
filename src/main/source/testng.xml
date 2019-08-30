@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="zezign application test Suite">
+
+
+	<!-- <parameters name="URL" value ="https://zezign.com/" /> -->
+
+	<listeners>
+		<listener class-name="com.zezign.qa.ExtentReportListener.ExtentReporterListener" />
+	</listeners>
+	
+	<test name="zezign application test cases">
+		<classes>
+			<class name="com.zezign.qa.testcases.loginPageTest" />
+			<class name="com.zezign.qa.testcases.HomePageTest" />
+			
+			
+		</classes>
+	</test>
+</suite>

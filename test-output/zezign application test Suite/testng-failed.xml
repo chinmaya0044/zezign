@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [zezign application test Suite]">
+  <test thread-count="5" name="zezign application test cases(failed)">
+    <classes>
+      <class name="com.zezign.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="addtocart"/>
+        </methods>
+      </class> <!-- com.zezign.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- zezign application test cases(failed) -->
+</suite> <!-- Failed suite [zezign application test Suite] -->
